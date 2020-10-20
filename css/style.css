@@ -1,0 +1,72 @@
+.container {
+    margin-top: 15em;
+}
+
+#checkout-form {
+    border-radius: 1em;
+    z-index: 0;
+    height: 10em;
+}
+
+#credit-card {
+    border-radius: 1em;
+    position: absolute;
+    top: 5em;
+    z-index: 1;
+    background-image: url('../media/images/background-card.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 7px 6px 10px rgba(14, 42, 90, 0.8);
+    font-family: 'Source code pro', monospace;
+    opacity: 95%;
+    width: 35%;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-top img:first-child {
+    width: 12.5%;
+    height: 12.5%;
+    object-fit: cover;
+}
+
+.card-top img:last-child {
+    width: 20%;
+    height: 20%;
+}
+
+.card-number-label {
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.space {
+    margin: 0 0.5em;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-name-label {
+    font-weight: 500;
+    font-size: 1.25em;
+    line-height: 1;
+    width: 70%;
+}
+
+.card-date-label {
+    font-weight: 500;
+    font-size: 1.25em;
+    line-height: 1;
+    width: 20%;
+}
